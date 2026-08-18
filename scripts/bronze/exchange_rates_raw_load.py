@@ -6,7 +6,7 @@ from sqlalchemy import text
 # 1. Define SQL Server Connection
 connection_url = URL.create(
     "mssql+pyodbc",
-    host=r"LAPTOP-CAU4GESA\SQLEXPRESS",
+    host=r"localhost\SQLEXPRESS",
     database="KenyaEconomicData",
     query={
         "driver": "ODBC Driver 18 for SQL Server",
