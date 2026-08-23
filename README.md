@@ -79,6 +79,13 @@ The whole Gold load is wrapped in `gold_stored_proc.sql`, which drops and rebuil
 - A few currencies (Deutsche Mark, French Franc, Italian Lira, etc.) stop appearing in the data after 1998 since they were replaced by the Euro — this is reflected in `dim_currencies` via `is_active` / `retired_year` rather than treated as missing data
 - Some deeper analysis (like triangulating whether every currency spiked simultaneously in 1993, to separate a KES-specific shock from a global one) was deliberately left out to keep the analysis scripts focused — left as an exercise for anyone digging further into the data
 
-## License
+## 🛡️ License
 
-MIT — see [LICENSE](LICENSE) for details.
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
+
+## About Me
+Hi there, I'm Mohamed Habib, a young programming enthusiast trying to make something of their life, InshaAllah I will succeed✌️.
+
+### Connect with me
+[![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://substack.com/@moha0ll)
+
